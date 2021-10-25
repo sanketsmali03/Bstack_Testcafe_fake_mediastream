@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "test_webcam": "testcafe --hostname localhost \"browserstack:chrome@90.0:Windows 10\" tests/webcamtest/webcamtest.js"
+    },
+    "devDependencies": {
+        "testcafe-browser-provider-browserstack": "1.13.1",
+        "testcafe": "1.16.0",
+        "@browserstack/testcafe": "^1.8.6"
+    }
+}

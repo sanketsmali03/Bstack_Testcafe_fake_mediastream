@@ -1,0 +1,19 @@
+{
+  "browserstack.maskCommands": "setvalues",
+  "browserstack.idleTimeout": 300,
+  "browserstack.debug": "true",
+  "browserstack.console": "errors",
+  "browserstack.captureCrash": "true",
+  "browserstack.networkLogs": "true",
+  "browserstack.local": "true",
+  "browserInitTimeout": 360000,
+  "chromeOptions": {
+    "args" : [ "--use-fake-device-for-media-stream", 
+      "--use-fake-ui-for-media-stream",
+      "--allow-file-access-from-files",
+      "--disable-gesture-requirement-for-media-playback",
+      "--use-file-for-fake-video-capture=C:\\Users\\hello\\Documents\\video\\sample_mjpeg.mjpeg"]
+    }
+  
+  
+}
