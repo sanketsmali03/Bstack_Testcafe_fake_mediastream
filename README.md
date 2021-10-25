@@ -4,11 +4,12 @@
 
 ## CONFIGURE BROWSERSTACK CONFIG JSON FILE  :
 
+```sh
 set --use-file-for-fake-video-capture location - 
 
 Path for mac: /Users/test1/Documents/video/sample_mjpeg.mjpeg 
 Path for win: C:\\Users\\hello\\Documents\\video\\sample_mjpeg.mjpeg
-
+```
 
 ### Start Local binary - 
 ```sh
