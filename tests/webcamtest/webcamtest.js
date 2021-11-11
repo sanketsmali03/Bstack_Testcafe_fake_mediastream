@@ -3,11 +3,11 @@ import fs from 'fs';
 import { ClientFunction } from 'testcafe';
 import { Console } from 'console';
 
-fixture("user").page('https://webrtc.github.io/samples/src/content/getusermedia/canvas/');
+fixture("user").page('https://streamyard.com/ib96u88pr5');
 
 test('Web cam test', async t => {
   await t
-  .wait(5000);
+  .wait(50000);
     });
 
 

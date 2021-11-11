@@ -13,6 +13,12 @@
       "--allow-file-access-from-files",
       "--disable-gesture-requirement-for-media-playback",
       "--use-file-for-fake-video-capture=C:\\Users\\hello\\Documents\\video\\sample_mjpeg.mjpeg"]
+    },
+    "moz:firefoxOptions": {
+      "prefs": {
+        "media.devices.insecure.enabled": "true",
+        "media.getusermedia.insecure.enabled": "true"
+      }
     }
   
   
