@@ -1,7 +1,8 @@
 {
     "scripts": {
         "test_webcam_chrome": "testcafe --hostname localhost \"browserstack:chrome@90.0:Windows 10\" tests/webcamtest/webcamtest.js",
-        "test_webcam_firefox": "testcafe \"browserstack:firefox@90.0:Windows 10\" tests/webcamtest/webcamtest.js"
+        "test_webcam_firefox": "testcafe \"browserstack:firefox@90.0:Windows 10\" tests/webcamtest/webcamtest.js",
+        "test_safari": "testcafe --hostname bs-local.com \"browserstack:safari@10.1:OS X Sierra\" testDownload.js",
     },
     "devDependencies": {
         "testcafe-browser-provider-browserstack": "1.13.1",
